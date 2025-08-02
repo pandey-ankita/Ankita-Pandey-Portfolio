@@ -1,0 +1,22 @@
+#cursor {
+    height: 15px;
+    width: 15px;
+    background-color: #58111A;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: all linear 0.1s;
+    pointer-events: none;
+}
+
+#blurcursor {
+    height: 100px;
+    width: 100px;
+    background-color: #B31B1B;
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(50px);
+    z-index: 9;
+    transition: all linear 0.1s;
+    pointer-events: none;
+}
